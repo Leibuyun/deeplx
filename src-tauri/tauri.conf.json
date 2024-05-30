@@ -1,0 +1,59 @@
+{
+  "build": {
+    "beforeDevCommand": "pnpm dev",
+    "beforeBuildCommand": "pnpm build",
+    "devPath": "http://localhost:1420",
+    "distDir": "../dist"
+  },
+  "package": {
+    "productName": "deeplx",
+    "version": "0.1.0"
+  },
+  "tauri": {
+    "allowlist": {
+      "all": false,
+      "shell": {
+        "all": false,
+        "open": true
+      },
+      "window": {
+        "close": true,
+        "minimize": true,
+        "startDragging": true,
+        "show": true,
+        "hide": true
+      }
+    },
+    "windows": [
+      {
+        "title": "deeplx",
+        "width": 800,
+        "height": 600,
+        "decorations": false,
+        "label": "main",
+        "center": true,
+        "resizable": false,
+        "theme": "Dark"
+      }
+    ],
+    "security": {
+      "csp": null
+    },
+    "bundle": {
+      "windows": {
+        "webviewInstallMode": {
+          "silent": true,
+          "type": "embedBootstrapper"
+        },
+        "wix": {
+          "language": "zh-CN"
+        }
+      },
+      "externalBin": ["binaries/translator"],
+      "active": true,
+      "targets": "all",
+      "identifier": "com.lby.deeplx",
+      "icon": ["icons/32x32.png", "icons/icon.ico"]
+    }
+  }
+}

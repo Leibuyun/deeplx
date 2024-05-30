@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.start-decorator-wrapper {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+
+.custom-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.padding {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.main {
+  overflow: hidden;
+  flex: 1;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+.show-wrapper {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.end-decorator {
+  display: flex;
+}

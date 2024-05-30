@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none"
+    stroke-width="1.5">
+    <desc>键盘删除_拨号删除</desc>
+    <g id="group-0" stroke="#333333" fill="#333333">
+        <path
+            d="M12.75 13.25H5.74293C5.2748 13.25 4.8335 13.0314 4.54979 12.6591L1.46177 8.60604C1.18901 8.24805 1.18901 7.75195 1.46177 7.39396L4.54979 3.34094C4.8335 2.96856 5.2748 2.75 5.74293 2.75H12.75C13.5784 2.75 14.25 3.42157 14.25 4.25V11.75C14.25 12.5784 13.5785 13.25 12.75 13.25Z"
+            fill="none" vector-effect="non-scaling-stroke" />
+        <path d="M7 6L11 10M11 6L7 10" stroke-linecap="round" fill="none"
+            vector-effect="non-scaling-stroke" />
+    </g>
+</svg>
